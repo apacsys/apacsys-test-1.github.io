@@ -105,6 +105,109 @@
         <p>
           Example inner page template
         </p>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-7 mx-auto">
+          <div class="card mt-2 mx-auto p-4 bg-light">
+            <div class="card-body bg-light">
+              <div class="container">
+                <form id="contact-form" role="form" action="https://formsubmit.io/send/31022572-c248-407a-bcff-f8ad06967f51">
+                  <div class="controls">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_name">Name <span class="text-danger">*</span></label>
+                          <input id="form_name" type="text" name="name" class="form-control"
+                            placeholder="Please enter your firstname *" required="required"
+                            data-error="Firstname is required.">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_lastname"></span></label>
+                          <input id="form_lastname" type="text" name="surname" class="form-control"
+                            placeholder="Please enter your lastname *" required="required"
+                            data-error="Lastname is required.">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_email">Email <span class="text-danger">*</span></label>
+                          <input id="form_email" type="email" name="email" class="form-control"
+                            placeholder="Please enter your email *" required="required"data-error="Valid email is required.">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_phone">Phone (optional)</label>
+                          <input id="form_phone" type="tel" name="phone" class="form-control"
+                            placeholder="Please enter your phone *">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_company">Company Name </label>
+                          <input id="form_company" type="text" name="company" class="form-control"
+                            placeholder="Please enter company name *">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_need">Please specify your need <span class="text-danger">*</span></label>
+                          <select id="form_need" name="need" class="form-control" required="required"
+                            data-error="Please specify your need.">
+                            <option value="" selected disabled>--Select Service--</option>
+                            <option>PLC and HMI Programming</option>
+                            <option>Electrical Design</option>
+                            <option>DCS Programming</option>
+                            <option>Data Collecting Solution</option>
+                            <option>System Upgrade and Migration</option>
+                            <option>Complex Loop Tuning</option>
+                            <option>Project Management</option>
+                            <option>Alarm Management</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="form_message">Message <span class="text-danger">*</span></label>
+                          <textarea id="form_message" name="message" class="form-control"
+                            placeholder="Write your message here." rows="4" required="required"
+                            data-error="Please, leave us a message."></textarea>
+                        </div>
+                        <input name="_formsubmit_id" type="text" style="display:none">
+                        <input name="_redirect" type="hidden" id="name" value="https://apacsys.github.io/Pages/thank_you.html">
+                      </div>
+
+    
+                      
+                      <div class="col-lg-12 d-flex justify-content-center mt-4">
+                        <input type="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message">
+                      </div>
+
+                    </div>
+
+                  </div>
+                </form>
+
+              </div>
+            </div>
+
+
+          </div>
+          <!-- /.8 -->
+
+        </div>
+        <!-- /.row-->
+
+      </div>
+    </div>		
       </div>
     </section>
 
